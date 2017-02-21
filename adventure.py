@@ -12,13 +12,13 @@ def msg(room):
 
 def get_choice(room,dir):
 	if dir=='N':
-		choice==0
+		choice=0
 	elif dir=='E':
 		choice=1
 	elif dir=='S':
-		choice==2
+		choice=2
 	elif dir=='W':
-		choice==3
+		choice=3
 	else:
 		return -1
 
